@@ -133,6 +133,8 @@ input[type=text] {
         background-color: #3CBC8D;
         color: black;
       }
+      #YourName{
+        margin-left: 2.5%;
       select {
         
         padding: 16px 20px;
