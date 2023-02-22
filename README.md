@@ -167,15 +167,22 @@ border-collapse: collapse;
 
 
         .header {
-            overflow: hidden;
-            background-color: pink;
-            padding: 8px 10px;
-            visibility: visible;
+            
+    background-color: yellowgreen;
+    overflow: hidden;
+    padding: -5em;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+
+            
           }
           
           
           .header a {
-            float: left;
+            float: center;
             color: black;
             text-align: center;
             padding: 12px;
@@ -203,7 +210,7 @@ border-collapse: collapse;
           
          
           .header-right {
-            float: right;
+            float: left;
           }
           
           
@@ -216,4 +223,4 @@ border-collapse: collapse;
             .header-right {
               float: none;
             }
-          }
+            }
